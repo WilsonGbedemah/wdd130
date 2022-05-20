@@ -1,0 +1,38 @@
+header h1 {
+    color: #ffffff;
+    text-align: center;
+}
+header h1:hover {
+    color: black;
+}
+header p {
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+    display: inline-block
+}
+body{
+    background-color:palevioletred;
+    text-align: center;
+    display: inline;
+}
+ li {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 2px;
+}
+p {
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+}
+img {
+    width: 200px;
+    height: 250px;
+}
+footer p {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+}

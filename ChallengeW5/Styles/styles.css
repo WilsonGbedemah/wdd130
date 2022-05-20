@@ -1,0 +1,10 @@
+#background {
+    height: 400px;
+    background-color: dimgray;
+}
+#circles {
+    width: 100%;
+}
+img {
+    border-radius: 50%;
+}
