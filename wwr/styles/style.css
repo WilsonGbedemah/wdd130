@@ -3,11 +3,16 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+#background{
+    height: 800px;
+}
 nav a {
     text-align: center;
     color: #000000;
     text-decoration: none;
     padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -32,6 +37,8 @@ body {
     background-color:whitesmoke ;
     margin: 0;
     padding: 0;
+    min-height: 100%;
+    font-size: 22px;
 }
 header{
     background-color:#e7c24f;
@@ -171,6 +178,10 @@ nav {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+html{
+    height: 100%;
+}
+
 .mountains {
     width: 100%;
     grid-column: 2/7;
