@@ -130,6 +130,7 @@ main section {
 .counseling-img{
     width:48%;
     height:100%;
+    display: inline-block;
     margin-bottom: 0;
     margin-left: 15px;
     transition: transform.5s;
