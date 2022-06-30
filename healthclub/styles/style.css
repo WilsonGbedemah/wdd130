@@ -20,7 +20,7 @@ main section {
     text-align: center;
 }
 #background {
-    height: 800px;
+    height: 850px;
     background-color:rgb(156, 171, 185);
     padding: 25px 50px;
     margin-top: 70px;
@@ -100,8 +100,9 @@ main section {
 .child-img{
     margin-left: 10%;
     margin-top: 70px;
-    height: 490px;
+    height: 510px;
     width: 850px;
+    position: relative;
     box-shadow: 10px 10px 10px #618498;
     transition: transform.5s;
 }
