@@ -79,18 +79,14 @@ main section {
     text-align:left;
     font-family: 'Helvetica';
 }
-.box{
+.view, .read {
+    background-color: #d9c2a3;
     color: #000000;
-    background-color:#d9c2a3;
     text-decoration: none;
     font-size: 25px;
     padding: 15px 30px;
     margin-top: 50px;
-    display: inline-block;
-}
-.box:hover{
-    background-color:#e7c24f;
-    color:#ffffff ;
+    border-radius: 5px;
 }
 .home,.counseling,.box {
     text-align: center;
