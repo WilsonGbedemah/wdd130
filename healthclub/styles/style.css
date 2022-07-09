@@ -1,9 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Roboto:wght@300&family=Rock+Salt&display=swap');
 header {
     background-color:#003554;
+    height: 50%;
     display: grid;
     grid-template-columns: 150px auto;
     font-size: 35px;
+}
+header {
+    background-color:#003554;
+    height: 50%;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-size: 35px;
+}
+#logo_link {
+  justify-self: center;
+  align-self: center;
+}
+.logo-img{
+  height:100px;
+  width: 100px;
+  position: relative;
+  margin-top: 8px;
 }
 html{
     height: 100%;
@@ -27,18 +45,6 @@ main section {
     margin-top: 70px;
     margin-bottom: 15px;
 }
-#logo_link {
-    justify-self: center;
-    align-self: center;
-    padding-top: 80%;
-}
-.logo-img{
-    height:100px;
-    width: 100px;
-    position: relative;
-    bottom: 105px;
-
-}
 #hero-msg h1 {
     text-align: center;
     color:#ffffff;
@@ -56,7 +62,7 @@ main section {
 .home, h2{
     text-align: left;
     font-size: 40px;
-    color: #ffffff;
+    color:#ffffff;
     margin-left:30px;
     font-family:'Arvo';
     margin-bottom: 10px;
@@ -81,10 +87,10 @@ main section {
     border-radius: 5px;
 }
 .view:hover, .read:hover {
-    background-color:#e7c24f ;
+    background-color:black ;
     color:#ffffff ;
 }
-.home,.counseling,.box {
+.button-box {
     text-align: center;
     color: #000000;
     text-decoration: none;
@@ -109,21 +115,25 @@ main section {
     margin-left:30px;
     font-family:'Arvo';
     font-size: 50px;
-    text-shadow:2px 2px 8px #ffffff;
 }
-.counseling, p{
+.counseling, h3{
     display: inline-block;
     font-size: 30px;
     text-align:left;
     font-size: 30px;
     font-family: 'Helvetica';
     color:black;
+    font-weight: medium;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 .counseling-img{
     width:48%;
     height:100%;
     display: inline-block;
-    margin-bottom: 0;
+    margin-bottom: 25px;
     margin-left: 15px;
     transition: transform.5s;
     margin-top: 15px;
@@ -181,7 +191,7 @@ nav {
 }
 #hero {
     display: grid;
-    margin-top: -100px;
+    margin-top: 0px;
 }
 #hero-box {
     grid-column: 1/4;
@@ -191,44 +201,53 @@ nav {
     grid-column: 2/3;
     grid-row: 1/2;
 }
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    #hero {
-        margin-top: 0;
-    }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
-    #background {
-        display: none;
-    }
-    .mountains, .msg {
-        width: 80%;
-        display: block;
-        margin: 0 auto;
-    }
-    footer {
-        margin-top: 25px;
-    }
+.treatment-grid h1{
+    text-align: left;
+    font-size: 50px;
+    color:#003554;
+    margin-left:30px;
+    font-family:'Arvo';
+}
+.treatment-grid h3{
+    font-family: 'Arvo';
+    display: inline-block;
+    font-size: 40px;
+    text-align:left;
+    color:black;
+    font-weight: medium;
+    margin-bottom: 0ox;
+}
+.treatment-grid p{
+    font-size: 30px;
+    font-weight: medium;
+    display: inline-block;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 30px;
+    margin-right: 15px;
+    text-align:left;
+    font-family: 'Helvetica';
+    margin-top: 30px;
+}
+.treatment-img{
+    width:48%;
+    height:100%;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    transition: transform.5s;
+    margin-top: 15px;
+    box-shadow: 10px 10px 10px #618498;
+    margin-left: 20px;
+}
+.treatment-img:hover{
+    opacity: 0.6;
+    transform: scale(1.1);
+}
+.treatment-grid #background{
+    background-color: #003554;
+    height: 360px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 15px;
 }
