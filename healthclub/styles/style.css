@@ -131,6 +131,7 @@ main section {
     margin-left: 15px;
     transition: transform.5s;
     margin-top: 15px;
+    box-shadow: 10px 10px 10px #618498;
 }
 .counseling-img:hover{
     opacity: 0.6;
